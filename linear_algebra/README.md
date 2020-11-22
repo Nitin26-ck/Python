@@ -14,9 +14,9 @@ This module contains classes and functions for doing linear algebra.
 
     - constructor(components : list) : init the vector
     - set(components : list) : changes the vector components.
-    - \_\_str\_\_() : toString method
-    - component(i : int): gets the i-th component (start by 0)
-    - \_\_len\_\_() : gets the size / length of the vector (number of components)
+    - \_\_str\_\_() : toString method.
+    - component(i : int): gets the i-th component (start by 0).
+    - \_\_len\_\_() : gets the size / length of the vector (number of components).
     - euclidLength() : returns the eulidean length of the vector.
     - operator + : vector addition
     - operator - : vector subtraction
@@ -25,13 +25,13 @@ This module contains classes and functions for doing linear algebra.
     - changeComponent(pos,value) : changes the specified component.
 
 - function zeroVector(dimension)
-    - returns a zero vector of 'dimension'
+    - it returns a zero vector of 'dimension'
 - function unitBasisVector(dimension,pos)
-    - returns a unit basis vector with a One at index 'pos' (indexing at 0)
+    - it returns a unit basis vector with a One at index 'pos' (indexing at 0)
 - function axpy(scalar,vector1,vector2)
-    - computes the axpy operation
+    - it computes the axpy operation
 - function randomVector(N,a,b)
-    - returns a random vector of size N, with random integer components between 'a' and 'b'.
+    - it returns a random vector of size N, with random integer components between 'a' and 'b'.
 
 ### class Matrix
 -
